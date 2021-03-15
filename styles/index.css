@@ -30,3 +30,26 @@ header img {
     height: 30px;
     width: auto;
 }
+
+#releases .release-item {
+    padding: 50px 30px;
+    overflow: auto;
+}
+
+#releases .release-item:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+#releases .release-item:nth-child(2n+1) {
+    background-color: #f5f5f5;
+}
+
+#releases .release-item .release-item-title {
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#releases .release-item .release-item-body {
+    font-size: 1.250rem;
+}
