@@ -6,6 +6,7 @@ const port = 3000;
 
 app.use('/static', express.static(__dirname + '/images'));
 app.use('/static', express.static(__dirname + '/js'));
+app.use('/static', express.static(__dirname + '/public'));
 app.use('/static', express.static(__dirname + '/styles'));
 
 app.get('/', (req, res) => {

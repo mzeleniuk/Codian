@@ -1,0 +1,30 @@
+{
+    "name": "Codian",
+    "short_name": "Codian",
+    "theme_color": "#00a3ff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "..",
+    "icons": [
+        {
+            "src": "/static/icon-96-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icon-144-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icon-192-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icon-512-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
