@@ -1,4 +1,12 @@
 window.addEventListener('load', async () => {
+    if ('serviceWorker' in navigator) {
+        try {
+            await navigator.serviceWorker.register('/static/serviceWorker.js');
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
     await loadReleases();
 });
 
