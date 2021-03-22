@@ -8,4 +8,4 @@ In the project directory, you can run:
 
 ### `npm run start`
 
-Runs the application at port 3000.
+Runs the application at defined port.
